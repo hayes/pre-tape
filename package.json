@@ -1,0 +1,28 @@
+{
+  "name": "pre-tape",
+  "version": "0.0.0",
+  "description": "setup and teardown hooks for tape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hayes/pre-tape.git"
+  },
+  "keywords": [
+    "tape",
+    "setup",
+    "teardown",
+    "test"
+  ],
+  "author": "Michael Hayes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hayes/pre-tape/issues"
+  },
+  "homepage": "https://github.com/hayes/pre-tape",
+  "dependencies": {
+    "tape": "^2.12.3"
+  }
+}
