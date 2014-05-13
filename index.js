@@ -9,8 +9,10 @@ function pre_tape(hooks, harness) {
       , context = {}
       , test
 
+    harness = harness || tape
+
     args.push(hooks.setup ? wrap(cb) : cb.bind(context))
-    test = (harness || tape).apply(tape, args)
+    test = harness.apply(harness, args)
 
     Object.keys(hooks).forEach(function(name) {
       if(name === 'setup') {
