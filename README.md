@@ -3,7 +3,7 @@ pre-tape
 
 setup and teardown hooks for tape
 
-```
+```javascript
 var setup = require('pretape')
 
 var test = setup({
