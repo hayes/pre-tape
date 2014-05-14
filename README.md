@@ -9,6 +9,7 @@ var setup = require('pretape')
 var test = setup({
     setup: setup
   , teardown: teardown
+  , // any events emited on the test such as prerun, run, test, etc
   , prerun: prerun
 })
 
