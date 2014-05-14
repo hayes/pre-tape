@@ -1,6 +1,6 @@
 {
   "name": "pre-tape",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "setup and teardown hooks for tape",
   "main": "index.js",
   "scripts": {
